@@ -5,14 +5,14 @@ import { Image, ImageBackground } from "react";
 function App() {
   return (
     <div className="App">
-      <ImageBackground
+      {/* <ImageBackground
         source={require("./assests/gradientpurple.jpg")}
         style={{
           height: "100%",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
         }}
-      ></ImageBackground>
+      ></ImageBackground> */}
       <nav className="navbar">
         <ul className="navbar-nav">
           <li className="logo">
