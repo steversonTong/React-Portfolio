@@ -1,12 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
-import Navbar from "../components/Navbar";
 
 function About() {
   return (
     <div>
-      <Navbar />
       <div id="header">
         <span
           className="font-serif font-semibold tracking-widest text-center text-white-800 pt-1"

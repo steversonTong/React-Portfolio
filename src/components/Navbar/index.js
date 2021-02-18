@@ -67,9 +67,8 @@ function Navbar(props) {
 
         <li className="nav-item">
           <Link
-            to="/"
+            to="/about"
             className={
-              window.location.pathname === "/" ||
               window.location.pathname === "/about"
                 ? "nav-link active"
                 : "nav-link"
@@ -104,9 +103,8 @@ function Navbar(props) {
 
         <li className="nav-item">
           <Link
-            to="/"
+            to="/projects"
             className={
-              window.location.pathname === "/" ||
               window.location.pathname === "/projects"
                 ? "nav-link active"
                 : "nav-link"
@@ -184,9 +182,8 @@ function Navbar(props) {
 
         <li className="nav-item">
           <Link
-            to="/"
+            to="/skills"
             className={
-              window.location.pathname === "/" ||
               window.location.pathname === "/skills"
                 ? "nav-link active"
                 : "nav-link"
