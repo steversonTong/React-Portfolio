@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./about.css";
 
 function About() {
@@ -39,27 +38,27 @@ function About() {
         <div className="px-6 pt-4 pb-2">
           {/* style={{ color: "white" }}  */}
           <h2>Contact Info</h2>
-          <Link
+          <a
             href="https://www.linkedin.com/in/steversontong/"
             target="_blank"
             className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
           >
             LinkedIn
-          </Link>
-          <Link
+          </a>
+          <a
             href="https://github.com/steversonTong"
             target="_blank"
             className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
           >
             GitHub
-          </Link>
-          <Link
+          </a>
+          <a
             href="mailto: stevetong53@yahoo.com"
             target="_blank"
             className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
           >
             Email
-          </Link>
+          </a>
         </div>
       </div>
     </div>

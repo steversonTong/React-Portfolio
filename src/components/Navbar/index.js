@@ -38,7 +38,6 @@ function Navbar(props) {
                 : "nav-link"
             }
           >
-            <span className="link-text logo-text">Steve</span>
             <svg
               aria-hidden="true"
               focusable="false"
@@ -62,6 +61,7 @@ function Navbar(props) {
                 ></path>
               </g>
             </svg>
+            <span className="link-text logo-text">Steve</span>
           </Link>
         </li>
 
@@ -182,9 +182,9 @@ function Navbar(props) {
 
         <li className="nav-item">
           <Link
-            to="/skills"
+            to="/Skills"
             className={
-              window.location.pathname === "/skills"
+              window.location.pathname === "/Skills"
                 ? "nav-link active"
                 : "nav-link"
             }

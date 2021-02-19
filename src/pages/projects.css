@@ -1,0 +1,66 @@
+.link {
+  color: blue;
+  font-size: 25px;
+}
+
+main {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: -50%;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:default {
+  color: black;
+}
+
+a:focus {
+  color: black;
+}
+
+.col-3 {
+  margin-left: 30px;
+}
+
+.col {
+  margin-left: 110px;
+  margin-right: 50px;
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Open Sans";
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}

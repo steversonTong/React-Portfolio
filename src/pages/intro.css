@@ -1,0 +1,46 @@
+section {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: auto;
+  padding-top: 20%;
+  margin-bottom: auto;
+  max-width: 50%;
+}
+
+#steveTitle {
+  font-size: 150%;
+  color: #08fdd8;
+}
+
+#steveDetail {
+  color: white;
+  font-size: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    max-width: 90%;
+  }
+}
+
+:root {
+  font-size: 16px;
+  font-family: "Open Sans";
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --transition-speed: 600ms;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #6649b8;
+}
