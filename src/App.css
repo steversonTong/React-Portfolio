@@ -1,1 +1,6 @@
-
+.App {
+  background-image: url("./assests/gradientpurple.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
