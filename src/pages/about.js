@@ -3,7 +3,7 @@ import "./about.css";
 
 function About() {
   return (
-    <div>
+    <div className="App">
       <div id="header">
         <span
           className="font-serif font-semibold tracking-widest text-center text-white-800 pt-1"
