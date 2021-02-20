@@ -1,5 +1,5 @@
 import React from "react";
-import Sphere from "../../components/Sphere";
+// import Sphere from "../../components/Sphere";
 import "./style.css";
 
 function Skills() {
@@ -24,9 +24,7 @@ function Skills() {
       </div>
 
       <section id="spheresec">
-        <canvas id="canvas">
-          <Sphere />
-        </canvas>
+        <canvas id="canvas">{/* <Sphere /> */}</canvas>
       </section>
     </div>
   );
