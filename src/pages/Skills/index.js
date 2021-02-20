@@ -1,6 +1,6 @@
 import React from "react";
-import Sphere from "../components/Sphere";
-import "./skills.css";
+import Sphere from "../../components/Sphere";
+import "./style.css";
 
 function Skills() {
   return (

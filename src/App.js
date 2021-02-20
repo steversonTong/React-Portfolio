@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Intro from "./pages/Intro";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
+import Intro from "./pages/Intro/index";
+import About from "./pages/About/index";
+import Projects from "./pages/Projects/index";
+import Skills from "./pages/Skills/index";
 import Navbar from "./components/Navbar";
 import "./App.css";
 

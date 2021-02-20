@@ -1,6 +1,6 @@
 import React from "react";
-import "./intro.css";
-import introimage from "../assests/intro.jpg";
+import "./style.css";
+import introimage from "../../assests/intro.jpg";
 
 function Intro() {
   return (
@@ -23,7 +23,6 @@ function Intro() {
       <img
         src={introimage}
         alt="intro"
-        className="center"
         style={{
           width: 500,
           height: 500,

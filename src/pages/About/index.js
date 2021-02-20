@@ -1,6 +1,6 @@
 import React from "react";
-import "./about.css";
-import pfpimage from "../assests/pfp.jpg";
+import "./style.css";
+import pfpimage from "../../assests/pfp.jpg";
 
 function About() {
   return (
