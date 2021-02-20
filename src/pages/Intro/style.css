@@ -5,16 +5,28 @@ section {
   padding-top: 20%;
   margin-bottom: auto;
   max-width: 50%;
+  animation: fadeIn 4s;
 }
 
 #steveTitle {
   font-size: 150%;
   color: #08fdd8;
+  animation: fadeIn 4s;
 }
 
 #steveDetail {
   color: white;
   font-size: 80%;
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 600px) {

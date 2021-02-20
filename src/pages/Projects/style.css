@@ -7,6 +7,7 @@ main {
   margin-left: 6%;
   margin-right: 6%;
   margin-top: -50%;
+  animation: fadeIn 4s;
 }
 
 img {
@@ -14,12 +15,23 @@ img {
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  animation: fadeIn 4s;
 }
 
 section {
   text-align: center;
   font-size: 35px;
   color: white;
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 a:hover {
