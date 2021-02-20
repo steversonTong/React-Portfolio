@@ -1,3 +1,7 @@
+nav {
+  z-index: 10;
+}
+
 @media only screen and (max-width: 600px) {
   #bioTextWrapper {
     max-width: 90%;

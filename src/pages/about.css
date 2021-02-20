@@ -1,11 +1,17 @@
+img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+
 #header {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8.5%;
-  margin-bottom: auto;
+  margin-top: 60px;
+  margin-bottom: 0;
   animation: fadeIn 4s;
-  font-size: 35px;
+  font-size: 50px;
   color: #08fdd8;
 }
 
