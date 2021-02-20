@@ -1,5 +1,6 @@
 import React from "react";
 import "./intro.css";
+import introimage from "../assests/intro.jpg";
 
 function Intro() {
   return (
@@ -19,6 +20,18 @@ function Intro() {
           Innovative thinker to solve Data Structures and Algorithms
         </p>
       </section>
+      <img
+        src={introimage}
+        alt="intro"
+        className="center"
+        style={{
+          width: 500,
+          height: 500,
+          borderRadius: 30,
+          marginLeft: "62%",
+          marginTop: "-20%",
+        }}
+      />
     </div>
   );
 }

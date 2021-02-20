@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import image from "../assests/pfp.jpg";
+import pfpimage from "../assests/pfp.jpg";
 
 function About() {
   return (
@@ -11,15 +11,12 @@ function About() {
         </span>
         <br></br>
         <br></br>
-        <img src={image} alt="profile" className="center" />
+        <img src={pfpimage} alt="profile" className="center" />
       </div>
 
       <div id="bioTextWrapper">
         <div className="px-6 py-4">
-          <p
-            // style={{ color: "white" }}
-            className="font-serif text-base sm:text-white-lg md:text-white-xl lg:text-white-2xl xl:text-white-3xl"
-          >
+          <p className="font-serif text-base sm:text-white-lg md:text-white-xl lg:text-white-2xl xl:text-white-3xl">
             My name is Steve Tong and I am a full-stack web developer, coder,
             and software engineer. I don't have much of experience in real-world
             coding as I am in my second year of university. I am currently
@@ -35,7 +32,6 @@ function About() {
           </p>
         </div>
         <div className="px-6 pt-4 pb-2">
-          {/* style={{ color: "white" }}  */}
           <h2>Contact Info</h2>
           <a
             href="https://www.linkedin.com/in/steversontong/"
