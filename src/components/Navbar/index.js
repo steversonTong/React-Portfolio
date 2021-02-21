@@ -180,7 +180,7 @@ function Navbar(props) {
           </Link>
         </li>
 
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link
             to="/Skills"
             className={
@@ -271,7 +271,7 @@ function Navbar(props) {
             </svg>
             <span className="link-text">Skills</span>
           </Link>
-        </li>
+        </li> */}
         <li></li>
       </ul>
     </nav>

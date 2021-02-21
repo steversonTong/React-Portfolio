@@ -1,21 +1,10 @@
-.link {
-  color: blue;
-  font-size: 25px;
-}
-
-main {
-  margin-left: 6%;
-  margin-right: 6%;
-  margin-top: -50%;
+article {
   animation: fadeIn 4s;
 }
 
 img {
   max-width: 90%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  animation: fadeIn 4s;
 }
 
 section {
